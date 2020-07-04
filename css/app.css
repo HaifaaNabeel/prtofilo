@@ -35,6 +35,39 @@
    }
    
    
+   .menu{
+    border:pink 1px solid ;
+    background-color: wheat;
+    direction:ltr;
+    margin-top: 3px;
+    height: 70px;
+    
+    } 
+    .menu ul { 
+      list-style-type: none;
+      margin-top: 12px;
+      margin-left: 33px;
+    
+    
+    }
+    .menu ul li {
+      display: inline; 
+      margin: 2px 2px 2px 2px;
+      padding:2px 2px 2px 2px ;
+    
+    
+    }
+    .menu ul li a {
+    text-decoration:none;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    border: rgb(172, 93, 110) solid 3px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px 25px 3px 25px ;
+    background-color: lemonchiffon;
+    }
+
 * {
     box-sizing: border-box;
   }
