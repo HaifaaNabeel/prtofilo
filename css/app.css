@@ -99,7 +99,7 @@
     position: relative;
    
     
-    background-image: url('images/we8.jpeg');
+    background-image: url('../images/we8.png');
     background-repeat: no-repeat;
     
     background-position-x: right;
@@ -111,7 +111,7 @@
     height: 100%;
     width: 100%;
     background-color: #000;
-    opacity: .8;
+    opacity: .6;
 }
 
 ul{
@@ -138,7 +138,7 @@ li a{
 }
 
 .social ul{
-    margin-top: 70vh;
+    margin-top: 60vh;
 }
 .social li{
    
