@@ -229,3 +229,27 @@ h1,h3{
     opacity: .8;
     float: left;
 }
+
+.form{
+    font-family: for_form;
+   background-color: rgb(215, 223, 223);
+   direction: ltr;
+   display: block;
+   position: relative;
+}
+.cont{
+    padding: 11vh;
+    background-color: rgb(215, 223, 223);
+}
+.input{
+    width: 100%;
+    size: 100%;
+}
+input[text]{
+    height: 10vh;
+}
+input[textarea]{
+    column-count: 10vh;
+    row-gap: 10vh;
+    height: 100%;
+}
