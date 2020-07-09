@@ -1,3 +1,8 @@
+@font-face{
+    font-family: for_form;
+    src: url('../fonts/corbel.ttf');
+    font-style: oblique;
+}
 *{
     margin: 0;
     border: 0;
@@ -164,7 +169,17 @@ h1,h3{
     position: relative;
     text-align: center;
     font-size:15px;
-    top:8vh;
+    padding: 5vh;
+    
+}
+.text1{
+    height: 30vh;
+    max-height: 30vh;
+    position: relative;
+    text-align: center;
+    font-size:15px;
+    padding: 6vh;
+    background-color: rgb(232, 240, 240);
 }
 
 .images1{
