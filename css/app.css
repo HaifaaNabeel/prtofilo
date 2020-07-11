@@ -232,24 +232,46 @@ h1,h3{
 
 .form{
     font-family: for_form;
-   background-color: rgb(215, 223, 223);
+   background-color: rgb(216, 221, 221);
    direction: ltr;
    display: block;
    position: relative;
+   padding: 10vh;
+   
 }
 .cont{
-    padding: 11vh;
+    
     background-color: rgb(215, 223, 223);
+    margin: 5px;
 }
-.input{
-    width: 100%;
-    size: 100%;
+.right{
+    float: right;
+
 }
-input[text]{
-    height: 10vh;
+.left{
+    float: left;
 }
-input[textarea]{
-    column-count: 10vh;
-    row-gap: 10vh;
-    height: 100%;
+input{
+    border: 1px solid rgb(182, 177, 177);
+    margin-top: 5px;
+    
+}
+input[type="text"]{
+    width: 90%;
+    height: 40px;  
+}
+input[type="email"]{
+    width: 95%;
+    height: 40px;  
+}
+input[type="Textarea"]{
+    width: 95%;
+    height: 90px;  
+}
+input[type="submit"]{
+    background: rgb(44, 134, 236);
+      color: white;  
+      width: 20vh; 
+      height:5vh ;
+
 }
