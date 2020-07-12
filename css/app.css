@@ -181,53 +181,71 @@ h1,h3{
     padding: 6vh;
     background-color: rgb(232, 240, 240);
 }
+.img{
+    
+
+}
 
 .images1{
     background-color:rgb(80, 138, 22);
     opacity: .8;
-    float: left;
+    float: right;
+    padding:4.5vw 5vw ;
 }
 .images2{
    
-    background-color:lightslategray;
+    background-color:rgb(212, 217, 221);
     opacity: .8;
-    float: left;
+    float: right;
+    padding:5vw 3vw 4vw 5vw ;
 }
 .images3{
     
-    background-color: orchid;
+    background-color: rgb(138, 110, 138);
     opacity: .8;
     float: left;
+    padding:5vw 3vw 4vw 5vw ;
+  
 }
 .images4{
   
-    background-color:#fff;
+    background-color:rgb(228, 177, 110);
     opacity: .8;
     float: left;
+    padding:5vw 3vw 4vw 5vw ;
+ 
 }
 .images5{
    
-    background-color:goldenrod;
+    background-color:rgb(192, 181, 155);
     opacity: .8;
     float: left;
+    padding:5vw 3vw 4vw 5vw ;
+
 }
 .images6{
     
-    background-color: lightseagreen;
+    background-color: rgb(162, 175, 84);
     opacity: .8;
-    float: left;
+    float: right;
+    padding:5vw 3vw 4vw 5vw ;
+ 
 }
 .images7{
     
-    background-color:navy;
+    background-color:rgb(247, 242, 197);
     opacity: .8;
     float: left;
+    padding:5vw 3vw 4vw 5vw ;
+
 }
 .images8{
     
-    background-color: palevioletred;
+    background-color: rgb(75, 134, 161);
     opacity: .8;
-    float: left;
+    float: right;
+    padding:5vw 3vw 4vw 5vw ;
+
 }
 
 .form{
