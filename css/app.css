@@ -290,9 +290,16 @@ input[type="email"]{
     width: 95%;
     height: 40px;  
 }
-input[type="Textarea"]{
+Textarea{
     width: 95%;
-    height: 90px;  
+    height: 90px;   
+    padding: 2px;
+    margin-top: 5px;
+}
+Textarea:focus{
+    box-shadow: -7px -4px 15px 5px darkturquoise;
+  
+
 }
 input[type="submit"]{
     background: rgb(44, 134, 236);
