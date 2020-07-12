@@ -118,6 +118,11 @@
     background-color: #000;
     opacity: .8;
 }
+.icon{
+padding: 30px 10px;
+direction: ltr;
+display: block;
+}
 
 ul{
     list-style-type: none;
@@ -129,7 +134,6 @@ ul{
 
 li{
     display : inline;
-    
     padding: 15px;
 
     
@@ -179,72 +183,76 @@ h1,h3{
     text-align: center;
     font-size:15px;
     padding: 6vh;
-    background-color: rgb(232, 240, 240);
-}
-.img{
-    
-
+    background-color: rgb(212, 221, 221);
 }
 
+.images11{
+    border: 2px dotted rgb(69, 42, 165); 
+    padding: 3vw 7vw;
+    height: 250px;
+}
 .images1{
-    background-color:rgb(80, 138, 22);
+    height: 250px;
+    background-color:rgb(217, 223, 211);
     opacity: .8;
     float: right;
-    padding:4.5vw 5vw ;
+ padding: 40px 100px;
+    
+ 
 }
 .images2{
-   
-    background-color:rgb(212, 217, 221);
+    height: 250px;
+    background-color:rgb(118, 128, 138);
     opacity: .8;
     float: right;
-    padding:5vw 3vw 4vw 5vw ;
+    padding: 40px 100px;
 }
 .images3{
-    
-    background-color: rgb(138, 110, 138);
+    height: 250px;
+    background-color:rgb(240, 216, 197);
     opacity: .8;
-    float: left;
-    padding:5vw 3vw 4vw 5vw ;
+    float: right;
+    padding: 40px 100px;
   
 }
 .images4{
-  
-    background-color:rgb(228, 177, 110);
+    height: 250px;
+    background-color: rgb(231, 73, 62);
     opacity: .8;
-    float: left;
-    padding:5vw 3vw 4vw 5vw ;
+    float: right;
+    padding: 40px 100px;
+    
  
 }
 .images5{
-   
-    background-color:rgb(192, 181, 155);
+    height: 250px;
+    background-color: rgb(79, 189, 125);
     opacity: .8;
-    float: left;
-    padding:5vw 3vw 4vw 5vw ;
+    float: right;
+    padding: 40px 100px;
 
 }
 .images6{
-    
-    background-color: rgb(162, 175, 84);
+    height: 250px;
+    background-color: rgb(51, 64, 70);
     opacity: .8;
     float: right;
-    padding:5vw 3vw 4vw 5vw ;
+    padding: 40px 100px;
  
 }
 .images7{
-    
-    background-color:rgb(247, 242, 197);
-    opacity: .8;
-    float: left;
-    padding:5vw 3vw 4vw 5vw ;
-
-}
-.images8{
-    
-    background-color: rgb(75, 134, 161);
+    height: 250px;
+    background-color:rgb(236, 189, 132);
     opacity: .8;
     float: right;
-    padding:5vw 3vw 4vw 5vw ;
+    padding: 40px 100px;
+}
+.images8{
+    height: 250px;
+    background-color:rgb(103, 187, 226);
+    opacity: .8;
+    float: right;
+    padding: 40px 100px;
 
 }
 
@@ -291,5 +299,10 @@ input[type="submit"]{
       color: white;  
       width: 20vh; 
       height:5vh ;
+
+}
+input:focus{
+    box-shadow: -7px -4px 15px 5px darkturquoise;
+
 
 }
