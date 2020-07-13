@@ -118,13 +118,6 @@
     background-color: #000;
     opacity: .8;
 }
-.icon{
-padding: 30px 10px;
-direction: ltr;
-float: left;
-height: 4px;
-width: 80px;
-}
 
 ul{
     list-style-type: none;
