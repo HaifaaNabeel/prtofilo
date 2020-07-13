@@ -121,7 +121,9 @@
 .icon{
 padding: 30px 10px;
 direction: ltr;
-display: block;
+float: left;
+height: 4px;
+width: 80px;
 }
 
 ul{
@@ -254,6 +256,14 @@ h1,h3{
     float: right;
     padding: 40px 100px;
 
+}
+button{
+    background-color:seagreen ;
+    font-size: 30px;
+    color: white;
+    font-style: normal;
+    width: 30vh;
+   
 }
 
 .form{
