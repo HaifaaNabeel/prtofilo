@@ -181,75 +181,28 @@ h1,h3{
     background-color: rgb(212, 221, 221);
 }
 
-.images11{
-    border: 2px dotted rgb(69, 42, 165); 
-    padding: 3vw 7vw;
-    height: 250px;
-}
-.images1{
-    height: 250px;
-    background-color:rgb(217, 223, 211);
-    opacity: .8;
-    float: right;
- padding: 40px 100px;
-    
- 
-}
-.images2{
-    height: 250px;
-    background-color:rgb(118, 128, 138);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
-}
-.images3{
-    height: 250px;
-    background-color:rgb(240, 216, 197);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
-  
-}
-.images4{
-    height: 250px;
-    background-color: rgb(231, 73, 62);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
-    
- 
-}
-.images5{
-    height: 250px;
-    background-color: rgb(79, 189, 125);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
+.maincon{ position: sticky;  background-color: blueviolet;}
+      
+      .card1{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease; background-color:rgb(217, 223, 211);; float: right;}
+      .card2{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease;  background-color:rgb(118, 128, 138); float: right;}
+      .card3{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease; background-color:rgb(240, 216, 197); float: right;}
+      .card4{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease;  background-color: rgb(231, 73, 62); float: right;}
+      .card5{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease; background-color: rgb(79, 189, 125); float: right;}
+      .card6{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease; background-color: rgb(51, 64, 70); float: right;}
+      .card7{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease; background-color:rgb(236, 189, 132); float: right;}
+      .card8{position: relative; width: 362;height: 300;transform-style:preserve-3d ;transition: all 1s ease; background-color:rgb(103, 187, 226); float: right;}
+      .card1:hover {transform: rotateY(180deg);}      .card2:hover {transform: rotateY(180deg);}      .card3:hover {transform: rotateY(180deg);}
+      .card4:hover {transform: rotateY(180deg);}      .card5:hover {transform: rotateY(180deg);}      .card6:hover {transform: rotateY(180deg);}
+      .card7:hover {transform: rotateY(180deg);}      .card8:hover {transform: rotateY(180deg);}
 
-}
-.images6{
-    height: 250px;
-    background-color: rgb(51, 64, 70);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
- 
-}
-.images7{
-    height: 250px;
-    background-color:rgb(236, 189, 132);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
-}
-.images8{
-    height: 250px;
-    background-color:rgb(103, 187, 226);
-    opacity: .8;
-    float: right;
-    padding: 40px 100px;
 
-}
+
+
+      .front{position: absolute; width: 100px; height: 100px;backface-visibility: hidden; padding: 70px 100px;    }
+
+      .back{position: absolute; width: 100px; height: 100px;backface-visibility: hidden;  ;color: hotpink; transform: rotateY(180deg);}
+
+
 button{
     background-color:seagreen ;
     font-size: 30px;
