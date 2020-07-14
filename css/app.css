@@ -200,7 +200,7 @@ h1,h3{
 
       .front{position: absolute; width: 100px; height: 100px;backface-visibility: hidden; padding: 70px 100px;    }
 
-      .back{position: absolute; width: 100px; height: 100px;backface-visibility: hidden;  ;color: hotpink; transform: rotateY(180deg);}
+      .back{position: absolute; width: 100px; height: 100px;backface-visibility: hidden;  ;color: black; font-family: for_form; transform: rotateY(180deg); padding: 30px 180px  ;}
 
 
 button{
